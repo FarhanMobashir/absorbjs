@@ -27,7 +27,7 @@ const config = {
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: true, 
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/blog/',
@@ -53,7 +53,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Learn',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
