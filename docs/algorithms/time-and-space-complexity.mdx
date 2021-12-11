@@ -1,0 +1,34 @@
+---
+sidebar_position: 1
+---
+
+# Time and Space Complexity
+
+In this part we will explore what do the time and space complexity means and will learn how to measure the time and space compexity of our programs.
+
+> Space Complexity means how much space is used while executing a program whereas time complexity means how many operations are being executed in a program assuming the worst case scenarios.
+
+### Time Complexity and Space Complexity Definitions
+
+**Time Complexity**
+
+Time compexity basically refer to how we reason about the speed of an algorithm. In simple words it means how fast our algorithm will be when the input grows. When we execute our programs there are a lot of factors which are not in our control for example which programming language we are using, which environment the code is being executed and hence despite of measuring the time of our algorithm like this algorithm takes 5 second or so, instead , we say as the input grows this algorithm grows in this this proportion like linear, quadratic,logarithmic or so.
+
+**Space Complexity**
+
+Space complexity means how much space we are using during the exection of a program. In simple words we can say that space complexity refer to how much RAM, Disk Space is needed to complete the execution of a program.
+
+### Time Complexity
+
+Let's learn more about the time complexity by taking a real world scenario. **Suppose we have 10 identical boxes sitting in a row and each contain a label with a number assigned to it**. Our task is to find the box which has the label 5 assigned to it. One simple approach for this will be start looking at each of the box and check the label. In this case our **best case scenario** will be that the first box only has the label 5 assigned to it. Similarly the **worst case scenario** will be the last box will have the label 5 assigned to it.
+
+Whatever be the scenario be but every time we check the box we will do one operation at a time, hence for 10 boxes we will do 10 operation altogether. Hence the time complexity will be of linear time here.
+
+What if we start keeping 10 more identical boxes inside each of the ten boxes and again we have to find the label 5. Now what will be our approach ?
+
+Our basic approach will be look for each big box and then start looking in for each of the ten boxes inside of it and check which has label 5 assigned to it. isn't it ?. SO how many operation you think we will do after the checking for all the 10 boxes ?. It will 10 times 10 or you can say 100 operations in the worst case scenario. Hence in this case the time complexity is of quadratic time. We will learn about this in more depth in the algorithm section. Now let's have a look on space complexity.
+
+### Space Complexity
+
+Now let's talk a little bit about space complexity that means how much space is needed to complete the execution of a program.
+Let's take a real world scenario to understand it a little more.
