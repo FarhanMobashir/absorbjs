@@ -4,12 +4,11 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Learn Algorithm',
+    title: 'Learn Algorithms',
     Svg: require('../../static/img/team.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn the basics of algorithms and overview of how to think about implementing algorithms.
       </>
     ),
   },
@@ -18,48 +17,43 @@ const FeatureList = [
     Svg: require('../../static/img/tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Implement the data structures from scratch and learn about the time and space complexity of every operations.
       </>
     ),
   },
   {
-    title: 'Get Free Resources',
+    title: 'Well Curated Learning',
     Svg: require('../../static/img/stopwatch.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: 'Make Connections',
-    Svg: require('../../static/img/goal.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Learn only the things that actually matters nd then explore the things that sparks your adrenaline.
       </>
     ),
   },
   {
     title: 'In Depth Learning',
-    Svg: require('../../static/img/teamwork.svg').default,
+    Svg: require('../../static/img/goal.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn about how the things in javascript works under the hood from closures, protoypal inheritance and much more.
       </>
     ),
   },
   {
-    title: 'Learn Javascript',
+    title: 'Make Connections',
+    Svg: require('../../static/img/teamwork.svg').default,
+    description: (
+      <>
+       Join our discord server and make friends with awesome people and share your learnings to make this world a better place.
+      </>
+    ),
+  },
+  {
+    title: 'Get Free Resources',
     Svg: require('../../static/img/notes.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The Internet is full of great free resources and here you will get some of those which helped me a lot and will help you too.
       </>
     ),
   },
