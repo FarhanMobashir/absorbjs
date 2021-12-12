@@ -1,67 +1,73 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: 'Learn Algorithms',
-    Svg: require('../../static/img/team.svg').default,
+    title: "Learn Algorithms",
+    Svg: require("../../static/img/feature_book.svg").default,
     description: (
       <>
-        Learn the basics of algorithms and overview of how to think about implementing algorithms.
+        Learn the basics of algorithms and overview of how to think about
+        implementing algorithms.
       </>
     ),
   },
   {
-    title: 'Implement Data Structures',
-    Svg: require('../../static/img/tree.svg').default,
+    title: "Implement Data Structures",
+    Svg: require("../../static/img/feature_pendulum.svg").default,
     description: (
       <>
-        Implement the data structures from scratch and learn about the time and space complexity of every operations.
+        Implement the data structures from scratch and learn about the time and
+        space complexity of every operations.
       </>
     ),
   },
   {
-    title: 'Well Curated Learning',
-    Svg: require('../../static/img/stopwatch.svg').default,
+    title: "Well Curated Learning",
+    Svg: require("../../static/img/feature_learning.svg").default,
     description: (
       <>
-       Learn only the things that actually matters nd then explore the things that sparks your adrenaline.
+        Learn only the things that actually matters nd then explore the things
+        that sparks your adrenaline.
       </>
     ),
   },
   {
-    title: 'In Depth Learning',
-    Svg: require('../../static/img/goal.svg').default,
+    title: "In Depth Learning",
+    Svg: require("../../static/img/feature_planet.svg").default,
     description: (
       <>
-        Learn about how the things in javascript works under the hood from closures, protoypal inheritance and much more.
+        Learn about how the things in javascript works under the hood from
+        closures, protoypal inheritance and much more.
       </>
     ),
   },
   {
-    title: 'Make Connections',
-    Svg: require('../../static/img/teamwork.svg').default,
+    title: "Make Connections",
+    Svg: require("../../static/img/feature_globe.svg").default,
     description: (
       <>
-       Join our discord server and make friends with awesome people and share your learnings to make this world a better place.
+        Join our discord server and make friends with awesome people and share
+        your learnings to make this world a better place.
       </>
     ),
   },
   {
-    title: 'Get Free Resources',
-    Svg: require('../../static/img/notes.svg').default,
+    title: "Get Free Resources",
+    Svg: require("../../static/img/feature_bookStack.svg").default,
     description: (
       <>
-        The Internet is full of great free resources and here you will get some of those which helped me a lot and will help you too.
+        The Internet is full of great free resources and here you will get some
+        of those which helped me a lot and will help you too.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
