@@ -32,3 +32,18 @@ Our basic approach will be look for each big box and then start looking in for e
 
 Now let's talk a little bit about space complexity that means how much space is needed to complete the execution of a program.
 Let's take a real world scenario to understand it a little more.
+
+Suppose we have 20 boxes and each has a unique 2 digit number associated with it. We have been given a number suppose 24 and our job is to find two boxes whose sum is 24. So to solve this particular problem there can be two approches in my opinion :
+
+> ---
+
+**First Approach** : We can simply start picking one box att first and then start checking the sum with all of the other box we have to get that number. Here in this case suppose if we have 20 boxes the worst case scenario will be we have to check 20 times the 20 boxes to get that number i.e., 400. We can however optimise it more with some basic common sense but it not what we are trying to get here.
+
+> ---
+
+**The Seecond Approach** : The second approach will be that we will start checking the boxes one by one and during the process suppose we get 14 **then we will keep a diary with us where we will write the compliment of 14 with that given number which in our case is 24**. And the next time when we check any of the boxes we look in oour diary whether we have its compliment there. Suppose in the next box we get 14 and we have the compliment written before is 10 hence we will check the next box and suppose in the next box we find its value 10 and then we again check the compliment annd we see we have 10 there . Hence here we will tell that 14 and 10 are the two number fro which the sum is 24.
+
+> What do we notice in the second approach ?
+
+We saw that we have to use extra space to save the compliment data which in our case is in the form of diary. So here for every element we are writing its compliment hence using extra space. Hence in this case we can say we have a linear space complexity i.e., O(n);
+We will learn more about these thinng as we will go ahead this was just to give an overview to get a clear picture of what time and space complexity means in very basic way.
