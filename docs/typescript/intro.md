@@ -129,3 +129,8 @@ Now if we make it to es2017 you will see just the same javascript that you wrote
 Here we say that typescript helps us to identify some possible bugs before the code even reaches to the browser in the compile-time only and hence it helps us to ship code with less error. Another good reason to use typescript is that the javscript engine whether it v8, spidermonkey, chakra, webkit all have their own type system while they compile your code and hence when we write code with proper type definition it helps the compiler to optimize it properly making our applications faster and more reliable.
 
 Learn more about it here [https://v8.dev/blog/launching-ignition-and-turbofan](https://v8.dev/blog/launching-ignition-and-turbofan)
+
+> Credits
+
+1. Mike North's Course on TypeScript from Frontend Master : https://frontendmasters.com/courses/typescript-v3/
+2. TypeScript Docs : https://www.typescriptlang.org/
